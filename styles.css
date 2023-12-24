@@ -1,0 +1,46 @@
+```css
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    text-indent: 20px;
+}
+```
